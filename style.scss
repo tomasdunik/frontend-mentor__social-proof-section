@@ -1,0 +1,179 @@
+$color-dark-grayish-magenta: #927b91;
+$color-light-grayish-magenta: #f7f2f7;
+$color-soft-pink: #ee68a4;
+$color-very-dark-magenta: #512051;
+$color-white: #ffffff;
+
+@mixin headerStarsContainer {
+  align-items: center;
+  background-color: $color-light-grayish-magenta;
+  border-radius: 8px;
+  display: flex;
+  height: 56px;
+  width: 445px;
+}
+
+@mixin mainComment {
+  background-color: $color-very-dark-magenta;
+  border-radius: 8px;
+  height: 234px;
+  width: 350px;
+  padding: 40px 32px;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: "League Spartan", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: grid;
+  place-content: center;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+  width: 1440px;
+  // margin: 0 auto;
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  height: 245px;
+  justify-content: space-between;
+  margin-top: 118px;
+  width: 1110px;
+}
+
+.header_text {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  height: 245px;
+  width: 445px;
+}
+
+.header_text_h1 {
+  color: $color-very-dark-magenta;
+  font-size: 56px;
+  font-weight: 700;
+  height: 154px;
+  letter-spacing: -2px;
+  line-height: 48px;
+  width: 445px;
+}
+
+.header_text_p {
+  color: $color-dark-grayish-magenta;
+  font-size: 19px;
+  font-weight: 500;
+  height: 75px;
+  letter-spacing: -0.63px;
+  line-height: 25px;
+  width: 445px;
+}
+
+.header_stars {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  justify-content: space-between;
+  width: 540px;
+}
+
+.header_stars_container-first {
+  @include headerStarsContainer;
+}
+
+.header_stars_container-second {
+  @include headerStarsContainer;
+  margin-left: 47px;
+}
+
+.header_stars_container-third {
+  @include headerStarsContainer;
+  margin-left: 95px;
+}
+
+.header_stars_container_stars {
+  justify-content: space-between;
+  display: flex;
+  height: 16px;
+  width: 117px;
+  margin: 0 22px;
+}
+
+.header_stars_container_text {
+  color: $color-very-dark-magenta;
+  font-size: 17px;
+  font-weight: 700;
+  height: 16px;
+  width: 270px;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  height: 266px;
+  justify-content: space-between;
+  margin-top: 78px;
+  width: 1110px;
+}
+
+.main_comment-first {
+  @include mainComment;
+}
+
+.main_comment-second {
+  @include mainComment;
+  margin-top: 15px;
+}
+
+.main_comment-third {
+  @include mainComment;
+  margin-top: 30px;
+}
+
+.main_comment_header_img {
+  border-radius: 50%;
+  width: 40px;
+}
+
+.main_comment_header {
+  display: flex;
+  margin-bottom: 31px;
+}
+
+.main_comment_header_text {
+  margin-left: 23px;
+  gap: 10px;
+}
+
+.main_comment_header_text_h2 {
+  color: $color-white;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.main_comment_header_text_h3 {
+  color: $color-soft-pink;
+  font-weight: 400;
+}
+
+.main_comment_p {
+  color: $color-white;
+  font-size: 17px;
+  height: 234px;
+  letter-spacing: -0.3px;
+  line-height: 22px;
+}
