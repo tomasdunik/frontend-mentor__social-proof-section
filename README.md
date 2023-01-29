@@ -1,14 +1,14 @@
-# Frontend Mentor - Equalizer landing page
+# Frontend Mentor - Social proof section
 
 ## 📝 Informácie o projekte
 
-Tento projekt je zo stránky Frontend Mentor ([Equalizer landing page](https://www.frontendmentor.io/challenges/equalizer-landing-page-7VJ4gp3DE)). Projekty zo stránky Frontend Mentor pomáhajú zlepošovať "coding skills" na realistických projektoch. Predlohy projektov sú dostupné na Figme. Anglické texty som upravil na slovenské.
+Tento projekt je zo stránky Frontend Mentor ([Social proof section](https://www.frontendmentor.io/challenges/social-proof-section-6e0qTv_bA)). Projekty zo stránky Frontend Mentor pomáhajú zlepošovať "coding skills" na realistických projektoch. Predlohy projektov sú dostupné na Figme. Anglické texty som upravil na slovenské.
 
 ## 🏗️ Vytvorenie projektu
 
-Projekt som vytvoril približne za 5 hodín a 55 minút (čas od stiahnutia projektu až po jeho finálne publikovanie na stránke Frontend Mentor). Použil som HTML a CSS. Najviac času mi zabralo vytvorenie responzívneho dizajnu. Prvýkrát som robil responzívny dizajn pre tri zariadenia - desktop, tablet a mobil.
+Tento projekt som vytvoril pomocou HTML, CSS a SCSS. SCSS som skúšal použiť prvýkrát. Najviac času mi zabrala vizuálna úprava kódu a pomenovávanie classov. V tomto projekte mi išlo o vytvorenie "ukážkového/najlepšieho" kódu, aký viem po troch mesiacoch učenia frontedu napísať. (ukážkový/najlepší treba brať trochu s rezervou)
 
-#### [Odkaz na hotovu stránku](https://tomasdunik.github.io/frontend-mentor-newbie-equalizer-landing-page/)
+#### [Odkaz na hotovu stránku](https://tomasdunik.github.io/frontend-mentor__social-proof-section/)
 
 ## 📸 Screenshots
 
@@ -16,15 +16,11 @@ Projekt som vytvoril približne za 5 hodín a 55 minút (čas od stiahnutia proj
 
 ![](./images/screenshot-desktop.png)
 
-### 📱 Tablet
-
-![](./images/screenshot-tablet.png)
-
 ### 📱 Mobil
 
 ![](./images/screenshot-mobile.png)
 
 ## 🔗 Odkazy
 
-- [Konkrétny projekt na stranke Frontend Mentor](https://www.frontendmentor.io/solutions/equalizer-landing-page-WPZNnYpwXg)
+- [Môj projekt na stránke Frontend Mentor](https://www.frontendmentor.io/solutions/my-version-social-proof-section-Hj08oYlN0T)
 - [Moje ostatné projekty na stránke Frontend Mentor](https://www.frontendmentor.io/profile/WeekendsProgrammer)
