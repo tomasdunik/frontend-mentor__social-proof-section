@@ -4,7 +4,7 @@ $color-soft-pink: #ee68a4;
 $color-very-dark-magenta: #512051;
 $color-white: #ffffff;
 
-@mixin headerStarsContainer {
+@mixin headerRatingContainer {
   align-items: center;
   background-color: $color-light-grayish-magenta;
   border-radius: 8px;
@@ -13,12 +13,12 @@ $color-white: #ffffff;
   width: 445px;
 }
 
-@mixin mainComment {
+@mixin mainContainer {
   background-color: $color-very-dark-magenta;
   border-radius: 8px;
   height: 234px;
-  width: 350px;
   padding: 40px 32px;
+  width: 350px;
 }
 
 * {
@@ -33,17 +33,16 @@ body {
   place-content: center;
 }
 
-.container {
+.web-page {
   align-items: center;
+  background-image: url(./images/bg-pattern-top-desktop.svg),
+    url(./images/bg-pattern-bottom-desktop.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   height: 800px;
   width: 1440px;
-  // margin: 0 auto;
-  background-image: url(./images/bg-pattern-top-desktop.svg),
-    url(./images/bg-pattern-bottom-desktop.svg);
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
 }
 
 .header {
@@ -55,15 +54,16 @@ body {
   width: 1110px;
 }
 
-.header_text {
-  justify-content: space-between;
+/* ==================== Header_description ==================== */
+.header_description {
   display: flex;
   flex-direction: column;
   height: 245px;
+  justify-content: space-between;
   width: 445px;
 }
 
-.header_text_h1 {
+.header_description_h1 {
   color: $color-very-dark-magenta;
   font-size: 56px;
   font-weight: 700;
@@ -73,7 +73,7 @@ body {
   width: 445px;
 }
 
-.header_text_p {
+.header_description_p {
   color: $color-dark-grayish-magenta;
   font-size: 19px;
   font-weight: 500;
@@ -83,7 +83,8 @@ body {
   width: 445px;
 }
 
-.header_stars {
+/* ==================== Header_rating ==================== */
+.header_rating {
   display: flex;
   flex-direction: column;
   height: 200px;
@@ -91,37 +92,38 @@ body {
   width: 540px;
 }
 
-.header_stars_container-first {
-  @include headerStarsContainer;
+.header_rating_first-container {
+  @include headerRatingContainer;
 }
 
-.header_stars_container-second {
-  @include headerStarsContainer;
+.header_rating_second-container {
+  @include headerRatingContainer;
   margin-left: 47px;
 }
 
-.header_stars_container-third {
-  @include headerStarsContainer;
+.header_rating_third-container {
+  @include headerRatingContainer;
   margin-left: 95px;
 }
 
-.header_stars_container_stars {
-  justify-content: space-between;
+.header_rating_container_stars {
   display: flex;
   height: 16px;
-  width: 117px;
+  justify-content: space-between;
   margin: 0 22px;
+  width: 117px;
 }
 
-.header_stars_container_text {
+.header_rating_container_p {
   color: $color-very-dark-magenta;
   font-size: 17px;
   font-weight: 700;
   height: 16px;
-  width: 270px;
   text-align: center;
+  width: 270px;
 }
 
+/* ==================== Main ==================== */
 .main {
   display: flex;
   height: 266px;
@@ -130,47 +132,52 @@ body {
   width: 1110px;
 }
 
-.main_comment-first {
-  @include mainComment;
+/* ==================== Main_first-container ==================== */
+.main_first-container {
+  @include mainContainer;
 }
 
-.main_comment-second {
-  @include mainComment;
+/* ==================== Main_second-container ==================== */
+.main_second-container {
+  @include mainContainer;
   margin-top: 15px;
 }
 
-.main_comment-third {
-  @include mainComment;
+/* ==================== Main_third-container ==================== */
+.main_third-container {
+  @include mainContainer;
   margin-top: 30px;
 }
 
-.main_comment_header_img {
+/* ==================== Main_containers ==================== */
+.main_containers_header_img {
   border-radius: 50%;
   width: 40px;
 }
 
-.main_comment_header {
+.main_containers_header {
   display: flex;
   margin-bottom: 31px;
 }
 
-.main_comment_header_text {
-  margin-left: 23px;
+.main_containers_header_text {
   gap: 10px;
+  margin-left: 23px;
 }
 
-.main_comment_header_text_h2 {
+.main_containers_header_text_h2 {
   color: $color-white;
   font-size: 17px;
   font-weight: 700;
 }
 
-.main_comment_header_text_h3 {
+.main_containers_header_text_h3 {
   color: $color-soft-pink;
+  font-size: 17px;
   font-weight: 400;
 }
 
-.main_comment_p {
+.main_containers_p {
   color: $color-white;
   font-size: 17px;
   height: 234px;

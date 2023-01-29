@@ -1,9 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sk">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- ==================== Title ==================== -->
+    <title>Frontend Mentor | Social proof section</title>
+
+    <!-- ==================== Google fonts ==================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -11,84 +15,90 @@
       rel="stylesheet"
     />
 
+    <!-- ==================== CSS ==================== -->
     <link rel="stylesheet" href="./style.css" />
     <link rel="stylesheet" href="./responsive-mobile.css" />
 
+    <!-- ==================== Icon ==================== -->
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
-    <title>Frontend Mentor | Social proof section</title>
   </head>
+
   <body>
-    <div class="container">
+    <div class="web-page">
       <header class="header">
-        <section class="header_text">
-          <h1 class="header_text_h1">
+        <!-- ==================== Header_description ==================== -->
+        <section class="header_description">
+          <h1 class="header_description_h1">
             Viac ako 10,000 používateľov miluje naše produkty.
           </h1>
-          <p class="header_text_p">
+          <p class="header_description_p">
             Ponúkame skvelé produkty v kombinácií s vynikajúcimi zákazníckými
             službami. Pozrite sa, čo o nás hovoria naši spokojní používatelia.
           </p>
         </section>
-        <section class="header_stars">
-          <div class="header_stars_container-first">
-            <div class="header_stars_container_stars">
+
+        <!-- ==================== Header_rating ==================== -->
+        <section class="header_rating">
+          <div class="header_rating_first-container">
+            <div class="header_rating_container_stars">
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
             </div>
-            <div class="header_stars_container_text">
+            <p class="header_rating_container_p">
               Hodnotené 5 hviezdami v Reviews
-            </div>
+            </p>
           </div>
-          <div class="header_stars_container-second">
-            <div class="header_stars_container_stars">
+          <div class="header_rating_second-container">
+            <div class="header_rating_container_stars">
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
             </div>
-            <div class="header_stars_container_text">
+            <p class="header_rating_container_p">
               Hodnotené 5 hviezdami v PCGuru
-            </div>
+            </p>
           </div>
-          <div class="header_stars_container-third">
-            <div class="header_stars_container_stars">
+          <div class="header_rating_third-container">
+            <div class="header_rating_container_stars">
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
               <img src="./images/icon-star.svg" alt="star icon" />
             </div>
-            <div class="header_stars_container_text">
+            <p class="header_rating_container_p">
               Hodnotené 5 hviezdami v BestTech
-            </div>
+            </p>
           </div>
         </section>
       </header>
 
+      <!-- ==================== Main ==================== -->
       <main class="main">
-        <div class="main_comment-first">
-          <div class="main_comment_header">
+        <!-- ==================== Main_first-container ==================== -->
+        <div class="main_first-container">
+          <div class="main_containers_header">
             <img
-              class="main_comment_header_img"
+              class="main_containers_header_img"
               src="./images/image-colton.jpg"
               alt="Colton Smith"
             />
-            <div class="main_comment_header_text">
-              <div class="main_comment_header_text_h2">Colton Smith</div>
-              <div class="main_comment_header_text_h3">Overený kupujúci</div>
+            <div class="main_containers_header_text">
+              <h2 class="main_containers_header_text_h2">Colton Smith</h2>
+              <h3 class="main_containers_header_text_h3">Overený kupujúci</h3>
             </div>
           </div>
-          <div class="main_comment_p">
+          <div class="main_containers_p">
             <p>
               „Potrebovali sme rovnaký tlačený dizajn, aký sme si objednali
               týždeň predtým. Pôvodnú objednávku našli a vytlačili ihneď. Sme
@@ -96,38 +106,42 @@
             </p>
           </div>
         </div>
-        <div class="main_comment-second">
-          <div class="main_comment_header">
+
+        <!-- ==================== Main_second-container ==================== -->
+        <div class="main_second-container">
+          <div class="main_containers_header">
             <img
-              class="main_comment_header_img"
+              class="main_containers_header_img"
               src="./images/image-irene.jpg"
               alt="Irene Roberts"
             />
-            <div class="main_comment_header_text">
-              <div class="main_comment_header_text_h2">Irene Roberts</div>
-              <div class="main_comment_header_text_h3">Overený kupujúci</div>
+            <div class="main_containers_header_text">
+              <h2 class="main_containers_header_text_h2">Irene Roberts</h2>
+              <h3 class="main_containers_header_text_h3">Overený kupujúci</h3>
             </div>
           </div>
-          <div class="main_comment_p">
+          <div class="main_containers_p">
             <p>
               „Služba zákazníkom je vždy vynikajúca a veľmi rýchla. Sme úplne
               spokojní s jednoduchosťou nákupu a rýchlosťou dodania."
             </p>
           </div>
         </div>
-        <div class="main_comment-third">
-          <div class="main_comment_header">
+
+        <!-- ==================== Main_third-container ==================== -->
+        <div class="main_third-container">
+          <div class="main_containers_header">
             <img
-              class="main_comment_header_img"
+              class="main_containers_header_img"
               src="./images/image-anne.jpg"
               alt="Anne Wallace"
             />
-            <div class="main_comment_header_text">
-              <div class="main_comment_header_text_h2">Anne Wallace</div>
-              <div class="main_comment_header_text_h3">Overený kupujúci</div>
+            <div class="main_containers_header_text">
+              <h2 class="main_containers_header_text_h2">Anne Wallace</h2>
+              <h3 class="main_containers_header_text_h3">Overený kupujúci</h3>
             </div>
           </div>
-          <div class="main_comment_p">
+          <div class="main_containers_p">
             <p>
               „Objednali sme si túto spoločnosť a môžem ich pochváliť za veľmi
               vysoký štandard. Určite ich znova oslovím a odporúčam ich

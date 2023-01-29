@@ -10,15 +10,15 @@ body {
   place-content: center;
 }
 
-.container {
+.web-page {
   align-items: center;
+  background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
+  background-position: top left, bottom right;
+  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   height: 800px;
   width: 1440px;
-  background-image: url(./images/bg-pattern-top-desktop.svg), url(./images/bg-pattern-bottom-desktop.svg);
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
 }
 
 .header {
@@ -30,15 +30,16 @@ body {
   width: 1110px;
 }
 
-.header_text {
-  justify-content: space-between;
+/* ==================== Header_description ==================== */
+.header_description {
   display: flex;
   flex-direction: column;
   height: 245px;
+  justify-content: space-between;
   width: 445px;
 }
 
-.header_text_h1 {
+.header_description_h1 {
   color: #512051;
   font-size: 56px;
   font-weight: 700;
@@ -48,7 +49,7 @@ body {
   width: 445px;
 }
 
-.header_text_p {
+.header_description_p {
   color: #927b91;
   font-size: 19px;
   font-weight: 500;
@@ -58,7 +59,8 @@ body {
   width: 445px;
 }
 
-.header_stars {
+/* ==================== Header_rating ==================== */
+.header_rating {
   display: flex;
   flex-direction: column;
   height: 200px;
@@ -66,7 +68,7 @@ body {
   width: 540px;
 }
 
-.header_stars_container-first {
+.header_rating_first-container {
   align-items: center;
   background-color: #f7f2f7;
   border-radius: 8px;
@@ -75,7 +77,7 @@ body {
   width: 445px;
 }
 
-.header_stars_container-second {
+.header_rating_second-container {
   align-items: center;
   background-color: #f7f2f7;
   border-radius: 8px;
@@ -85,7 +87,7 @@ body {
   margin-left: 47px;
 }
 
-.header_stars_container-third {
+.header_rating_third-container {
   align-items: center;
   background-color: #f7f2f7;
   border-radius: 8px;
@@ -95,23 +97,24 @@ body {
   margin-left: 95px;
 }
 
-.header_stars_container_stars {
-  justify-content: space-between;
+.header_rating_container_stars {
   display: flex;
   height: 16px;
-  width: 117px;
+  justify-content: space-between;
   margin: 0 22px;
+  width: 117px;
 }
 
-.header_stars_container_text {
+.header_rating_container_p {
   color: #512051;
   font-size: 17px;
   font-weight: 700;
   height: 16px;
-  width: 270px;
   text-align: center;
+  width: 270px;
 }
 
+/* ==================== Main ==================== */
 .main {
   display: flex;
   height: 266px;
@@ -120,59 +123,64 @@ body {
   width: 1110px;
 }
 
-.main_comment-first {
+/* ==================== Main_first-container ==================== */
+.main_first-container {
   background-color: #512051;
   border-radius: 8px;
   height: 234px;
-  width: 350px;
   padding: 40px 32px;
+  width: 350px;
 }
 
-.main_comment-second {
+/* ==================== Main_second-container ==================== */
+.main_second-container {
   background-color: #512051;
   border-radius: 8px;
   height: 234px;
-  width: 350px;
   padding: 40px 32px;
+  width: 350px;
   margin-top: 15px;
 }
 
-.main_comment-third {
+/* ==================== Main_third-container ==================== */
+.main_third-container {
   background-color: #512051;
   border-radius: 8px;
   height: 234px;
-  width: 350px;
   padding: 40px 32px;
+  width: 350px;
   margin-top: 30px;
 }
 
-.main_comment_header_img {
+/* ==================== Main_containers ==================== */
+.main_containers_header_img {
   border-radius: 50%;
   width: 40px;
 }
 
-.main_comment_header {
+.main_containers_header {
   display: flex;
   margin-bottom: 31px;
 }
 
-.main_comment_header_text {
-  margin-left: 23px;
+.main_containers_header_text {
   gap: 10px;
+  margin-left: 23px;
 }
 
-.main_comment_header_text_h2 {
+.main_containers_header_text_h2 {
   color: #ffffff;
   font-size: 17px;
   font-weight: 700;
 }
 
-.main_comment_header_text_h3 {
+.main_containers_header_text_h3 {
   color: #ee68a4;
+  font-size: 17px;
   font-weight: 400;
 }
 
-.main_comment_p {
+.main_containers_p {
   color: #ffffff;
   font-size: 17px;
   height: 234px;
