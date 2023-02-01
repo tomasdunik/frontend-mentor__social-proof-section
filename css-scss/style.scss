@@ -9,16 +9,15 @@ $color-white: #ffffff;
   background-color: $color-light-grayish-magenta;
   border-radius: 8px;
   display: flex;
-  height: 56px;
-  width: 445px;
+  min-height: 56px;
+  min-width: 445px;
 }
 
 @mixin mainContainer {
   background-color: $color-very-dark-magenta;
   border-radius: 8px;
-  height: 234px;
-  padding: 40px 32px;
-  width: 350px;
+  padding: 2.5rem 2rem;
+  min-width: 350px;
 }
 
 * {
@@ -30,6 +29,7 @@ $color-white: #ffffff;
 
 body {
   display: grid;
+  line-height: 1.1;
   place-content: center;
 }
 
@@ -41,16 +41,13 @@ body {
   background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
-  height: 800px;
-  width: 1440px;
+  min-height: 100vh;
 }
 
 .header {
   align-items: center;
   display: flex;
-  height: 245px;
-  justify-content: space-between;
-  margin-top: 118px;
+  margin-top: 7.38rem;
   width: 1110px;
 }
 
@@ -58,77 +55,78 @@ body {
 .header_description {
   display: flex;
   flex-direction: column;
-  height: 245px;
-  justify-content: space-between;
-  width: 445px;
+  margin-right: 7.7rem;
+  min-width: 445px;
 }
 
 .header_description_h1 {
   color: $color-very-dark-magenta;
-  font-size: 56px;
+  font-size: 3.5rem;
   font-weight: 700;
-  height: 154px;
-  letter-spacing: -2px;
-  line-height: 48px;
-  width: 445px;
+  letter-spacing: -0.036em;
+  line-height: 0.85;
+  min-width: 465px;
 }
 
 .header_description_p {
   color: $color-dark-grayish-magenta;
-  font-size: 19px;
+  font-size: 1.19rem;
   font-weight: 500;
-  height: 75px;
-  letter-spacing: -0.63px;
-  line-height: 25px;
-  width: 445px;
+  letter-spacing: -0.033em;
+  line-height: 1.3;
+  padding-top: 1.7rem;
 }
 
 /* ==================== Header_rating ==================== */
 .header_rating {
   display: flex;
   flex-direction: column;
-  height: 200px;
   justify-content: space-between;
   width: 540px;
 }
 
 .header_rating_first-container {
   @include headerRatingContainer;
+  margin-right: 5.94rem;
 }
 
 .header_rating_second-container {
   @include headerRatingContainer;
-  margin-left: 47px;
+  margin-left: 2.94rem;
+  margin-right: 2.94rem;
+  margin-top: 1rem;
 }
 
 .header_rating_third-container {
   @include headerRatingContainer;
-  margin-left: 95px;
+  margin-left: 5.94rem;
+  margin-top: 1rem;
 }
 
 .header_rating_container_stars {
   display: flex;
-  height: 16px;
   justify-content: space-between;
-  margin: 0 22px;
-  width: 117px;
+  margin: 0 1rem;
+}
+
+.header_rating_container_stars img {
+  padding-left: 0.2rem;
 }
 
 .header_rating_container_p {
   color: $color-very-dark-magenta;
-  font-size: 17px;
+  font-size: 1.06rem;
   font-weight: 700;
-  height: 16px;
   text-align: center;
-  width: 270px;
+  padding-top: 0.3rem;
 }
 
 /* ==================== Main ==================== */
 .main {
   display: flex;
-  height: 266px;
   justify-content: space-between;
-  margin-top: 78px;
+  margin-bottom: 3rem;
+  margin-top: 4.9rem;
   width: 1110px;
 }
 
@@ -140,47 +138,51 @@ body {
 /* ==================== Main_second-container ==================== */
 .main_second-container {
   @include mainContainer;
-  margin-top: 15px;
+  margin-left: 1.87rem;
+  position: relative;
+  top: 0.94rem;
 }
 
 /* ==================== Main_third-container ==================== */
 .main_third-container {
   @include mainContainer;
-  margin-top: 30px;
+  margin-left: 1.87rem;
+  position: relative;
+  top: 1.88rem;
 }
 
 /* ==================== Main_containers ==================== */
 .main_containers_header_img {
   border-radius: 50%;
+  height: 40px;
   width: 40px;
 }
 
 .main_containers_header {
   display: flex;
-  margin-bottom: 31px;
+  margin-bottom: 1.94rem;
 }
 
 .main_containers_header_text {
-  gap: 10px;
-  margin-left: 23px;
+  gap: 0.63rem;
+  margin-left: 1.44rem;
 }
 
 .main_containers_header_text_h2 {
   color: $color-white;
-  font-size: 17px;
+  font-size: 1.06rem;
   font-weight: 700;
 }
 
 .main_containers_header_text_h3 {
   color: $color-soft-pink;
-  font-size: 17px;
+  font-size: 1.06rem;
   font-weight: 400;
 }
 
 .main_containers_p {
   color: $color-white;
-  font-size: 17px;
-  height: 234px;
-  letter-spacing: -0.3px;
-  line-height: 22px;
+  font-size: 1.06rem;
+  letter-spacing: -0.018em;
+  line-height: 1.3;
 }

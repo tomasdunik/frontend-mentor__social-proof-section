@@ -1,0 +1,103 @@
+@media (max-width: 374px) {
+  .web-page {
+    background-image: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
+    background-position: top, bottom;
+  }
+  .header {
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 4.8rem;
+    width: 0;
+  }
+  /* ==================== Header_description ==================== */
+  .header_description {
+    min-height: 219px;
+    min-width: 320px;
+    text-align: center;
+    width: 272px;
+  }
+  .header_description_h1 {
+    font-size: 2.13rem;
+    letter-spacing: -0.036em;
+    line-height: 0.8;
+    min-width: 320px;
+  }
+  .header_description_p {
+    font-size: 1rem;
+    min-height: 100px;
+    padding-top: 1.2rem;
+    width: 272px;
+  }
+  /* ==================== Header_rating ==================== */
+  .header_rating {
+    min-height: 266px;
+    margin-top: 1.6rem;
+    width: 272px;
+  }
+  .header_rating_first-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.63rem;
+    justify-content: center;
+    min-width: 272px;
+  }
+  .header_rating_second-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.63rem;
+    justify-content: center;
+    min-width: 272px;
+    margin-left: 0;
+  }
+  .header_rating_third-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.63rem;
+    justify-content: center;
+    min-width: 272px;
+    margin-left: 0;
+  }
+  .header_rating_container_p {
+    font-size: 1rem;
+  }
+  /* ==================== Main ==================== */
+  .main {
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-top: 2.6rem;
+    width: 320px;
+  }
+  /* ==================== Main_first-container ==================== */
+  .main_first-container {
+    min-height: 248px;
+    padding: 2.5rem 2rem;
+    width: 272px;
+  }
+  /* ==================== Main_second-container ==================== */
+  .main_second-container {
+    min-height: 248px;
+    padding: 2.5rem 2rem;
+    width: 272px;
+    margin-top: 1rem;
+  }
+  /* ==================== Main_third-container ==================== */
+  .main_third-container {
+    min-height: 248px;
+    padding: 2.5rem 2rem;
+    width: 272px;
+    margin-top: 1rem;
+  }
+  /* ==================== Main_containers ==================== */
+  .main_containers_header {
+    display: flex;
+    margin-bottom: 1.5rem;
+  }
+  .main_containers_header_text {
+    margin-left: 1.44rem;
+  }
+  .main_containers_p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}/*# sourceMappingURL=responsive-max374.css.map */
