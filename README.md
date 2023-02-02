@@ -8,7 +8,7 @@ Tento projekt je zo stránky Frontend Mentor ([Social proof section](https://www
 
 Tento projekt som vytvoril pomocou HTML, CSS a SCSS. SCSS som skúšal použiť prvýkrát. Najviac času mi zabrala vizuálna úprava kódu a pomenovávanie classov. V tomto projekte mi išlo o vytvorenie "ukážkového/najlepšieho" kódu, aký viem po troch mesiacoch učenia frontedu napísať (ukážkový/najlepší treba brať trochu s rezervou).
 
-Pripomienky k zlepšeniu kódu mi dal [Dan Srb](https://www.linkedin.com/in/danielsrb/).
+Pripomienky k zlepšeniu kódu mi dal [Daniel Srb](https://www.linkedin.com/in/danielsrb/).
 
 #### [Odkaz na hotovu stránku](https://tomasdunik.github.io/frontend-mentor__social-proof-section/)
 
